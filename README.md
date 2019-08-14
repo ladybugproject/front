@@ -4,3 +4,7 @@
 
 #### 메인페이지
 <img src="img/project.jpg" width=200 height=300>
+
+
+#### 영화정보페이지
+<img src="img/project1.jpg" width=200 height=300>
