@@ -1,10 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MainUpperSide from './components/mainUpperSide.js';
+import Main from './components/main.js';
 
 export default function App() {
   return (
-      <MainUpperSide></MainUpperSide>
+      <Main/>
   );
 }
 
