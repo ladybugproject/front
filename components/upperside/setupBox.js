@@ -1,12 +1,12 @@
 import React from 'react';
-import {StyleSheet, View, Image} from 'react-native';
+import {StyleSheet, Image, TouchableOpacity} from 'react-native';
 
 class SetupBox extends React.Component {
     render() {
         return (
-            <View style={styles.box}>
-                <Image style={styles.setup} source={require('../img/setup.png')} />
-            </View>
+            <TouchableOpacity style={styles.box}>
+                <Image style={styles.setup} source={require('../../img/setup.png')} />
+            </TouchableOpacity>
         )
     }
 }

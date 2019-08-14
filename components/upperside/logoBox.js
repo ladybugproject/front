@@ -5,7 +5,7 @@ class LogoBox extends React.Component {
     render() {
         return (
             <View style={styles.box}>
-                <Image style={styles.logo} source={require('../img/logo.png')} />
+                <Image style={styles.logo} source={require('../../img/logo.png')} />
             </View>
         )
     }

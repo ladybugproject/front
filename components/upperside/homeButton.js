@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Button, View, TouchableOpacity, Text } from 'react-native';
+import {StyleSheet, TouchableOpacity, Text } from 'react-native';
 
 class HomeButton extends React.Component {
     render() {

@@ -9,11 +9,9 @@ import SearchButton from './searchButton.js';
 
 const styles = StyleSheet.create({
     container: {
-        flex: 0.7,
         width: '100%',
     },
     upperSide: {
-        flex: 1,
         backgroundColor: 'white',
         marginTop: 20,
         marginLeft: 5,
@@ -23,7 +21,6 @@ const styles = StyleSheet.create({
         alignItems: 'stretch',
     },
     downSide: {
-        flex: 1,
         marginTop: 10,
         flexDirection: 'row',
         justifyContent: 'center'

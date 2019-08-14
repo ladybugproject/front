@@ -1,7 +1,8 @@
 import React from 'react';
 import { StyleSheet, View, Text, Image } from 'react-native';
-import UpperSide from './upperSide.js'
-
+import UpperSide from './upperside/upperSide.js'
+import MustSeeItem from './mustSeeItem/mustSeeItem.js'
+import NowShowingItem from './nowshowing/nowShowing.js'
 
 const styles = StyleSheet.create({
     container: {
@@ -18,10 +19,6 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'stretch',
     },
-    downSide: {
-        flex: 3,
-        backgroundColor: '#dd7e7e'
-    },
   });
 
 
@@ -31,7 +28,8 @@ class Main extends React.Component {
             <View style={styles.container}>
                 <UpperSide/>
                 <View style={{borderBottomColor: 'black', borderBottomWidth: 1,}}/>
-                <View style={styles.downSide} />
+                <MustSeeItem/>
+                <NowShowingItem/>
             </View>
         )
     }
