@@ -1,5 +1,16 @@
 ## 오머나
 
+### pre-require
+~~~
+npm install -g expo-cli http-server
+~~~
+
+### run on web
+~~~
+expo build:web .
+http-server ./web-build -d
+~~~
+
 ### 진행상황
 
 #### 메인페이지
